@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BBB",
+		"BWB",
+		"WWW"
+	],
+	"key": {
+		"B": {
+			"item": "bananarecipes:banana"
+		},
+		"W": {
+			"item": "minecraft:wheat"
+		}
+	},
+	"result": {
+		"id": "bananarecipes:banana_bread",
+		"count": 1
+	}
+}

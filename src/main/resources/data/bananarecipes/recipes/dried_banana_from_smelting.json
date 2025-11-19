@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "bananarecipes:banana"
+	},
+	"result": {
+		"id": "bananarecipes:dried_banana"
+	},
+	"experience": 0.1,
+	"cookingtime": 100
+}

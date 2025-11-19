@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "bananarecipes",
+	"version": "${version}",
+	"name": "Banana Recipes",
+	"description": "Adds bananas and banana-based recipes to Minecraft!",
+	"authors": [
+		"OMSuperG"
+	],
+	"contact": {
+		"homepage": "https://github.com/OMSuperG/bananarecipes",
+		"sources": "https://github.com/OMSuperG/bananarecipes"
+	},
+	"license": "MIT",
+	"icon": "assets/bananarecipes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.omsuperg.bananarecipes.BananaRecipes"
+		]
+	},
+	"mixins": [
+		"bananarecipes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
