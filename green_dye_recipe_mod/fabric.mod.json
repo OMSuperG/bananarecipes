@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"id": "dyecrafting",
+	"version": "1.0.0",
+	"name": "Dye Crafting Mod",
+	"description": "Adds green dye recipe",
+	"entrypoints": {},
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1"
+	}
+}
